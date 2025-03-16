@@ -1,0 +1,624 @@
+.swiper-slide {
+    text-align: start;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  #produk .swiper{  
+      height:450px;
+  }
+  #produk .swiper .card{  
+      height:400px;
+  }
+  
+  #bannerMore_{
+      background-image: url('https://www.gamelab.id/uploads/report/project_21000/21000_20250309_002954.jpg');
+    width: 324px;
+    height: 200px;
+  }
+
+  .black {
+    background-color: black;
+    opacity: 0.6;
+  }
+
+#katalog #keuntungan .card{
+    width: 16rem; 
+}
+
+#katalog a.rounded-pill {
+    background-color: #76a4c0;
+}
+
+#katalog a.rounded-pill:hover {
+    background-color: #A5C7DC;
+}
+
+#katalogJumbo h5 {
+    color : #76A4C0;
+}
+
+#katalogJumbo p{
+    color:#646464;
+}
+
+#katalogJumbo a{
+    width: 10rem;
+    height: 2.25rem;
+}
+
+#katalogMini {
+    display: none;    
+    }
+    
+#produk .bannerProduk {
+        width: 700px;
+        height: 200px;
+    }
+
+    #produk .swiper .card img{  
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#produk button {
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-color: #E3BAE7;
+    color: #E3BAE7;
+}
+
+#produk button:hover {
+    background-color: #E3BAE7;
+    border-color: #E3BAE7;
+    color: #fff;
+}
+
+#bannerRequest{
+    height:570px;
+}
+
+#bannerRequest img{
+    width :100%;
+}
+
+#testimoni img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#testimoni i {
+    color: #F3E474;
+    margin-right: 3px;
+}
+
+#testimoni .swiper{  
+    height: 400px;
+}
+#testimoni .swiper .card{  
+    height: 350px;
+}
+
+#testimoni .swiper .card:hover{  
+      background-color: #FFA3A3;
+      color:#fff;
+      border-color: #FFA3A3;
+  }
+
+#faq .accordion {
+    width: 90%;
+}
+
+#faq .accordion-button{
+    box-shadow: none !important;
+    color: #373737 !important;
+    background-color: #EFE6F0;
+    position: relative !important;
+}
+
+#faq .accordion-button:activate, #faq .accordion-button:focus{
+    border: none !important;
+}
+
+#faq .accordion-button:hover{
+    background-color: #FAF0FB;
+    color: #373737;
+}
+
+#pertanyaan button{
+    background-color: #FEEBDD;
+}
+
+#pertanyaan button:hover {
+    background-color: #DCBDA2;
+}
+
+#kontak #bulat{
+    width: 55px;
+    height: 55px;
+}
+
+#lokasi iframe {
+     width: 450px; 
+     height: 350px; 
+     border:0;
+}
+    
+footer {
+    background-color: #C7CCCF; 
+    height: 110px;
+    }
+    
+footer .garis{
+    height: 60px; 
+    width: 1px; 
+    background-color: white;
+}
+
+footer .card {
+    background-color: #C7CCCF;
+    color: #fff;
+    height: 30px;
+}
+    
+footer .card img{
+    width: 20px;
+}
+
+
+/*============================== Responsive =================================*/
+
+
+@media screen and (max-width : 922px){
+    #katalogJumbo {
+    display: none;    
+    }
+    
+    #katalogMini {
+    display: flex;    
+    }
+    
+    #katalog #katalogMini .card {
+        max-width: 325px;
+    }
+    
+    #katalog #katalogMini img {
+        width: 162px; 
+        height: 200px; 
+    }
+    
+    #katalog #katalogMini .card-body{
+        height: 200px;
+    }
+    
+     #katalog #keuntungan .col-6 {
+        width: 10rem;
+    }
+    
+    #katalog #keuntungan .card h6{
+        font-size: 10px;
+    }
+    
+    #katalog #keuntungan .card p {
+        font-size: 8px;
+    }
+    #katalog #keuntungan .card img {
+        width: 30px;
+    }
+    
+    #produk .swiper{  
+        height: 430px;
+    }
+    
+    
+    #produk .swiper .card{  
+      height:380px;
+      background-color: #EFE6F0;
+    }
+    
+    #produk .swiper .card-body{  
+      background-color: #fff;
+    }
+    
+    #produk .swiper .card img{  
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    
+    #tentang .card{
+        display: none;
+    }
+    
+     #tentang .col-8{
+        width: 300px;
+    }
+
+    #testimoni p {
+        font-size: 16px;
+    }
+    
+    #bannerRequest{
+    height:350px;
+}
+    
+    #kontak h5 {
+        font-size: 14px;
+    }
+    
+    #kontak p {
+        font-size: 12px;
+    }
+    
+    #lokasi iframe {
+     width: 340px; 
+     height: 240px; 
+     border:0;
+    }
+    
+    #lokasi p {
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media screen and (max-width : 576px){
+    nav button { 
+        width: 44px;
+        height: 34px;
+    }
+    
+    nav span { 
+        width: 40px;
+    }
+    
+    nav .navbar-collapse a{
+        font-size: 13px;
+    }
+    
+    #katalog #keuntungan .card img {
+        width: 25px;
+    }
+    
+    #katalog #keuntungan .card h6{
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    
+    #katalog #keuntungan .card p {
+        font-size: 8px;
+        width: 100%;
+    }
+    
+    #produk .bannerProduk {
+        width: 350px;
+        height: 100px;
+    }
+    
+     #produk .swiper{  
+        width: 300px;
+        height: 400px;
+    }
+    
+    #produk .swiper .card{  
+      height:364px;
+      background-color: #EFE6F0;
+    }
+    
+    #produk .swiper .card-body{  
+      background-color: #fff;
+      border-radius: 0 0 5px 5px;
+    }
+    
+    #produk .swiper .card-body h6{  
+      font-size: 16px;
+    }
+    
+    #produk .swiper .card-body p{  
+      font-size: 12px;
+    }
+    
+    #produk .swiper .card img{  
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    
+    #produk h6{
+        font-size: 10px;
+    }
+    
+    #produk p{
+        font-size: 8px;
+    }
+    
+    table td{
+        font-size: 14px;    
+    }
+    
+    #tentang .col-sm-4 img{
+        width: 150px;
+    }
+    
+    #tentang .col-sm-8 h2{
+        font-size: 16px;
+    }
+    
+    #tentang .col-sm-8 h3{
+        font-size: 18px;
+    }
+    
+    #tentang .whatsapp{
+        width: 25px;
+    }
+    
+    #tentang .col-sm-8 p{
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+    }
+    
+    #tentang p{
+        font-size: 12px;
+    }
+    
+    #bannerRequest {
+        display: none;
+    }
+    
+     #testimoni .swiper .card{  
+      height:300px;
+    }
+
+    #testimoni p {
+        font-size: 14px;
+    }
+    
+    #faq {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    #faq .accordion {
+    width: 100%;
+    }
+    
+    #faq h2 {
+        font-size: 22px;
+    }
+    
+    #faq h3 {
+        font-size: 16px;
+    }
+    
+    #faq .accordion-body{
+        font-size: 14px;
+    }
+    
+    #kontak .col-lg-8{
+        padding: 0 0 0 0;
+    }
+    
+    #kontak img {
+        width: 15px;
+    }
+    
+    #kontak #bulat{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #kontak h3 {
+        font-size: 19px;
+    }
+    
+    #kontak label {
+        font-size: 14px;
+    }
+    
+    #kontak h5 {
+        font-size: 8px;
+    }
+    
+    #kontak p {
+        font-size: 7px;
+    }
+    
+    
+    #home .img-fluid {
+        width: 100px;
+    }
+    
+    #opening h1 {
+        font-size: 12px;
+    }
+    
+    #opening p {
+        font-size: 10px;
+    }
+    
+    #produk .col-sm-3 {
+        width: 100px;
+        height: 200px;
+    }
+    
+    footer {
+        background-color: #C7CCCF; 
+        height: 240px;
+    }
+    
+    footer .garis{
+        height: 1px; 
+        width: 100%;
+        background-color: white;
+    }
+    
+}
+
+@media screen and (max-width : 350px){
+    body{
+        
+    width: 100% !important;
+    max-width: 100% !important;
+    }
+    
+      #bannerMore_{
+      background-image: url('https://www.gamelab.id/uploads/report/project_21000/21000_20250309_002954.jpg');
+    width: 265px;
+    height: 200px;
+  }
+    
+    #katalog #katalogMini img{
+        width: 130;
+    }
+    
+     #katalog #keuntungan .col-6 {
+        width: 8rem;
+    }
+    
+    #katalog #keuntungan .card img {
+        width: 20px;
+    }
+    
+    #katalog #keuntungan .card h6{
+        font-size: 9px;
+        width: 100%;
+        margin-top: 2px;
+        margin-bottom: 1px;
+    }
+    
+    #katalog #keuntungan .card p {
+        font-size: 7px;
+        margin-top: 2px;
+        width: 100%;
+    }
+    
+    #produk .bannerProduk {
+        width: 300px;
+        height: 100px;
+    }
+    
+     #produk .swiper{  
+         width: 260px;
+        height:400;
+    }
+    
+     #produk .swiper .card{  
+      height:364px;
+      background-color: #EFE6F0;
+    }
+    
+    #produk .swiper .card-body{  
+      background-color: #fff;
+      border-radius: 0 0 5px 5px;
+    }
+    
+    #produk .swiper .card-body h6{  
+      font-size: 16px;
+    }
+    
+    #produk .swiper .card-body p{  
+      font-size: 12px;
+    }
+    
+    #produk .swiper .card img{  
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    
+    #produk h6{
+        font-size: 8px;
+    }
+    
+    #produk p{
+        font-size: 6px;
+    }
+    
+    #tentang .col-12.col-sm-8 h2{
+        font-size: 14px;
+    }
+    
+    #tentang p{
+        font-size: 12px;
+    }
+    
+    #bannerRequest {
+        display: none;
+    }
+    
+    #tentang h3{
+        font-size: 16px;
+    }
+    
+    #testimoni p {
+    font-size: 12px;
+}
+
+ #faq .container {
+    width: 100%;
+    }
+    
+    #kontak img {
+        width: 15px;
+    }
+    
+    #kontak #bulat{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #kontak .col-lg-8{
+        padding: 0 0 0 0;
+    }
+    
+    #kontak h3 {
+        font-size: 15px;
+    }
+    
+    #kontak h5 {
+        font-size: 6px;
+    }
+    
+    #kontak p {
+        font-size: 6px;    
+    }
+    
+    #lokasi iframe {
+     width: 300px; 
+     height: 200px; 
+     border:0;
+    }
+    
+    #lokasi p {
+        font-size: 12px;
+    }
+    
+    footer a{
+    font-size: 13px;
+    }
+    
+    footer .card p{
+    font-size: 12px;
+    }
+
+}
